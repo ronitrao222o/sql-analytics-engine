@@ -12,5 +12,8 @@ def main():
     print("\nMonthly Revenue:")
     print(run_query("queries/monthly_revenue.sql"))
 
+    print("\nRevenue by Category:")
+    print(run_query("queries/revenue_by_category.sql"))
+
 if __name__ == "__main__":
     main()
