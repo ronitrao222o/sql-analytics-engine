@@ -13,6 +13,8 @@ sales data and generates business insights using advanced SQL queries.
 - Revenue by product and category
 - Monthly revenue trends
 - Running revenue totals using window functions
+- Category-wise revenue analysis using SQL aggregations
+
 
 ## How to Run
 ```bash
