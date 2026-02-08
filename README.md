@@ -7,6 +7,8 @@ sales data and generates business insights using advanced SQL queries.
 ## Data Model
 - Single fact table optimized for analytical queries
 - Derived metrics computed directly in SQL
+- Query performance optimized using indexes on frequently queried columns
+
 
 ## Analytics Supported
 - Top customers by revenue
