@@ -7,3 +7,9 @@ CREATE TABLE IF NOT EXISTS sales (
     quantity INTEGER,
     price REAL
 );
+
+CREATE INDEX IF NOT EXISTS idx_sales_order_date
+ON sales(order_date);
+
+CREATE INDEX IF NOT EXISTS idx_sales_customer_id
+ON sales(customer_id);
