@@ -16,6 +16,7 @@ sales data and generates business insights using advanced SQL queries.
 - Monthly revenue trends
 - Running revenue totals using window functions
 - Category-wise revenue analysis using SQL aggregations
+- Repeat customer analysis to identify returning buyers
 
 
 ## How to Run
