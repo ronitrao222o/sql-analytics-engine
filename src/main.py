@@ -2,6 +2,7 @@ from db_setup import setup_database
 from load_data import load_sales_data
 from analytics import run_query
 
+
 def main():
     setup_database()
     load_sales_data("data/sales_data.csv")
@@ -14,6 +15,10 @@ def main():
 
     print("\nRevenue by Category:")
     print(run_query("queries/revenue_by_category.sql"))
+
+    print("\nRepeat Customers:")
+    print(run_query("queries/repeat_customers.sql"))
+
 
 if __name__ == "__main__":
     main()
