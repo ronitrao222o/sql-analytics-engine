@@ -19,6 +19,9 @@ def main():
     print("\nRepeat Customers:")
     print(run_query("queries/repeat_customers.sql"))
 
+    print("\nMonthly New Customers:")
+    print(run_query("queries/monthly_new_customers.sql"))
+
 
 if __name__ == "__main__":
     main()
