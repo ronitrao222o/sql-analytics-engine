@@ -22,6 +22,9 @@ def main():
     print("\nMonthly New Customers:")
     print(run_query("queries/monthly_new_customers.sql"))
 
+    print("\nAverage Order Value:")
+    print(run_query("queries/average_order_value.sql"))
+
 
 if __name__ == "__main__":
     main()
