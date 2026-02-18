@@ -18,6 +18,7 @@ sales data and generates business insights using advanced SQL queries.
 - Category-wise revenue analysis using SQL aggregations
 - Repeat customer analysis to identify returning buyers
 - Monthly new customer growth analysis using first-order tracking
+- Average Order Value (AOV) metric for revenue performance analysis
 
 
 ## How to Run
