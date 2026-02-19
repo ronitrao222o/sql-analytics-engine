@@ -25,6 +25,9 @@ def main():
     print("\nAverage Order Value:")
     print(run_query("queries/average_order_value.sql"))
 
+    print("\nMonthly Top Customers (Ranked):")
+    print(run_query("queries/monthly_top_customers.sql"))
+
 
 if __name__ == "__main__":
     main()
